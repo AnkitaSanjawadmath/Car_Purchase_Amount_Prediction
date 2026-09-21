@@ -70,13 +70,13 @@ The trained regression model is saved in the `model.pkl` file using Python's `pi
 
 To launch the dashboard, open your terminal and run the following command:
 ```bash
-streamlit run predict.py
+streamlit run Dashboard.py
 ```
 
 Once executed, a browser window will automatically open (usually at `http://localhost:8501`) displaying your interactive prediction dashboard.
 
 ### Under the Hood: How Streamlit & Pickle Work Together
-Inside your `predict.py` file, the app reads the serialized pickle file and handles user input dynamically:
+Inside your `Dashboard.py` file, the app reads the serialized pickle file and handles user input dynamically:
 ```python
 #import streamlit as st
 #import pickle
