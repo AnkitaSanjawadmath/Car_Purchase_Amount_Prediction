@@ -78,8 +78,8 @@ Once executed, a browser window will automatically open (usually at `http://loca
 ### Under the Hood: How Streamlit & Pickle Work Together
 Inside your `predict.py` file, the app reads the serialized pickle file and handles user input dynamically:
 ```python
-import streamlit as st
-import pickle
+#import streamlit as st
+#import pickle
 
 # Load the serialized regression model
 #model = pickle.load(open("CarPurchaseAmount.pkl", "rb"))
