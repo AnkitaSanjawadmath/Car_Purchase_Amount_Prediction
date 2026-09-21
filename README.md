@@ -28,9 +28,10 @@ Businesses want to predict customer purchasing power to improve sales planning a
 ## 🛠️ Repository Structure
 
 ```text
+├── Dataset.csv              # Dataset for training the model
 ├── CarPurchaseAmount.ipynb  # Jupyter Notebook for EDA, visualization, and model training
-├── Model.pkl                  # The trained, serialized regression model
-└── Dashboard.py                # Streamlit web application script loading the pickle file
+├── Model.pkl               # The trained, serialized regression model
+└── Dashboard.py            # Streamlit web application script loading the pickle file
 ```
 
 ---
